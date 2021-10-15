@@ -1,0 +1,57 @@
+.cuadrado {
+    background-color: rgb(255, 0, 0);
+    
+    width: 150px;
+    height: 105px;
+    position: relative;
+    left: 0px;
+    border-radius: 30%;
+    animation-name: animacion;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    background: violet;
+}
+
+
+h1 {
+    left: 10%;
+
+}
+
+@keyframes animacion {
+    0% {left: 0;top: 0;}
+    10% {left: 300px;top:0px;}
+    25% {left: 200px;top: 300px;}
+    50% {left: 300px;top: 0px;}
+    75% {left:500px;top: 100px;}
+    100% {left: 100px;top:0px;}
+    
+
+
+}
+
+
+
+
+body {
+    background-color: tomato;
+    
+}
+.triangulo {
+    left: 30px;
+    bottom: 20px;
+    width: 0; 
+    height: 0; 
+    border-left: 45px solid #000000;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent; 
+    
+}
+
+.TUDOR {
+    font-size: 200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orange;
+    
+}   
